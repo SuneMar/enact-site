@@ -62,6 +62,7 @@ th { font-weight: 600; background: var(--bg); }
 tr:last-child td { border-bottom: 0; }
 footer { border-top: 1px solid var(--line); }
 footer .bar { font-size: 14px; color: var(--muted); }
+footer .links { display: flex; gap: 18px; flex-wrap: wrap; }
 
 /* On a phone, each table row becomes a small stacked block instead of three squeezed columns. */
 @media (max-width: 560px) {
